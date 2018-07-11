@@ -1,0 +1,10 @@
+.dishes {
+  width: 437px;
+  height: 585px;
+  padding-top: 25px;
+  background: url("../images/dishes.png") 28px -11px no-repeat;
+
+  @import "__switch/__switch.scss";
+  @import "__title/__title.scss";
+  @import "__goods/__goods";
+}

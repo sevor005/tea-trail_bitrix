@@ -1,0 +1,8 @@
+.switch-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  @import "__circle/__circle.scss";
+  @import "__toggle/__toggle.scss";
+}

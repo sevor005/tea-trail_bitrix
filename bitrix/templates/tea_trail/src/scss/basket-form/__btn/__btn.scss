@@ -1,0 +1,20 @@
+&__btn {
+  display: block;
+  width: 146px;
+  font-family: 'Roboto Slab Regular';
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  margin: 20px auto 0;
+  box-shadow: -1px -1px 1px #839f39;
+  background: linear-gradient(#719e00, #447300);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: box-shadow .1s;
+
+  &:hover {
+    box-shadow: none;
+  }
+}

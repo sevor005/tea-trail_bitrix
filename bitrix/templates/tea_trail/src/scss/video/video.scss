@@ -1,0 +1,11 @@
+.video {
+  width: 433px;
+  height: 358px;
+  
+  background: url("../images/video-title.png") 37px -7px no-repeat,
+              url("../images/video-background.png") center no-repeat;
+
+  @import "__title/__title.scss";
+  @import "__window/__window.scss";
+  @import "__link-articles/__link-articles.scss";
+}

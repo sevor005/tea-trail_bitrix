@@ -1,0 +1,10 @@
+&__subtitle {
+  font-family: 'Roboto Condensed Regular';
+  font-size: 11px;
+  margin: 5px 0 0 10px;
+  color: #000;
+
+  &::before {
+    content: "- ";
+  }
+}

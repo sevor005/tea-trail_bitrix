@@ -1,0 +1,63 @@
+&__nose-smoke {
+  
+
+  &::before {
+    content: "";
+    width: 99px;
+    height: 117px;
+    background: url("../images/kettle-nose-smoke-one.png") center no-repeat;
+    position: absolute;
+    top: -59px;
+    right: 7px;
+    animation: nose-smoke-one linear 4s infinite;
+  }
+
+  &::after {
+    content: "";
+    width: 77px;
+    height: 90px;
+    background: url("../images/kettle-nose-smoke-two.png") center no-repeat;
+    position: absolute;
+    top: -115px;
+    right: 0;
+    animation: nose-smoke-two linear 6s infinite;
+  }
+
+  @keyframes nose-smoke-one {
+    // from {opacity: .1; top: -59px; right: 7px;}
+    // 10% {opacity: .3; top: -69px; right: 7px;}
+    // 20% {opacity: .4; top: -69px; right: 7px;}
+    // 25% {opacity: .6; top: -69px; right: 7px;}
+    // 30% {opacity: .8; top: -79px; right: 7px;}
+    // 40% {opacity: 1; top: -89px; right: 7px;}
+    // 50% {opacity: .8; top: -99px; right: 7px;}
+    // 60% {opacity: .7; top: -109px; right: 7px;}
+    // 70% {opacity: .6; top: -119px; right: 7px;}
+    // 80% {opacity: .5; top: -129px; right: 7px;}
+    // 90% {opacity: .3; top: -139px; right: 7px;}
+    // to {opacity: .1; top: -149px; right: 7px;}
+    0% {opacity: 0; top: -59px; right: 7px;}
+    50% {opacity: 1; top: -89px; right: -9px;}
+    100% {opacity: 0; top: -100px; right: -15px;}
+  }
+
+  @keyframes nose-smoke-two {
+    // from {opacity: .1; top: -115px; right: 0px;}
+    // 10% {opacity: .3; top: -125px; right: 0px;}
+    // 20% {opacity: .4; top: -130px; right: 0px;}
+    // 25% {opacity: .6; top: -133px; right: 0px;}
+    // 30% {opacity: .8; top: -135px; right: 0px;}
+    // 40% {opacity: 1; top: -145px; right: 0px;}
+    // 50% {opacity: .8; top: -155px; right: 0px;}
+    // 60% {opacity: .7; top: -160px; right: 0px;}
+    // 70% {opacity: .6; top: -170px; right: 0px;}
+    // 80% {opacity: .5; top: -180px; right: 0px;}
+    // 90% {opacity: .3; top: -190px; right: 0px;}
+    // to {opacity: .1; top: -200px; right: 0px;}
+    from {opacity: 0; top: -115px; right: 0px;}
+    50% {opacity: 1; top: -145px; right: -3px;}
+    to {opacity: 0; top: -185px; right: -7px;}
+  }
+}
+
+

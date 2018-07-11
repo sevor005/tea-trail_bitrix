@@ -1,0 +1,20 @@
+.page {
+  font-family: 'Roboto Slab Regular';
+  height: 2294px;
+  width: 3440px;
+  background: url("../images/background.jpg") no-repeat center;
+  position: relative;
+
+  @import "__map/__map.scss";
+  @import "__kettle-small/__kettle-small.scss";
+  @import "__casual-dishes/__casual-dishes.scss";
+  @import "__sidebar/__sidebar.scss";
+  @import "__about/__about.scss";
+  @import "__articles/__articles.scss";
+  @import "__paper/__paper.scss";
+  @import "__form/__form.scss";
+  @import "__dishes/__dishes.scss";
+  @import "__kettle/__kettle.scss";
+  @import "__tea/__tea.scss";
+  @import "__video/__video.scss";
+}

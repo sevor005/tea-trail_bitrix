@@ -1,0 +1,21 @@
+.dialog {
+  display: none;
+  width: 640px;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #666;
+  padding: 39px 31px 15px 28px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @import "_for_basket/_for_basket.scss";
+  @import "_for_order-finish/_for_order-finish.scss";
+  @import "_for_feedback-finish/_for_feedback-finish.scss";
+  @import "__close/__close.scss";
+  @import "__scroll/__scroll";
+  @import "__content/__content";
+  @import "__content-wrapper/__content-wrapper";
+}

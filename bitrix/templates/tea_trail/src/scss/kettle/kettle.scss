@@ -1,0 +1,16 @@
+.kettle {
+  width: 795px;
+  height: 405px;
+  background: url("../images/kettle.png") center center no-repeat;
+
+  @import "__head/__head.scss";
+  @import "__question/__question.scss";
+  @import "__inside/__inside.scss";
+  @import "__mask/__mask.scss";
+  @import "__nose-smoke/__nose-smoke.scss";
+  @import "__smoke-inside/__smoke-inside.scss";
+  @import "__slider/__slider.scss";
+  @import "__slider-title/__slider-title.scss";
+  @import "__slider-left/__slider-left.scss";
+  @import "__slider-right/__slider-right.scss";
+}

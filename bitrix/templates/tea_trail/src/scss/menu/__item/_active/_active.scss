@@ -1,0 +1,9 @@
+&_active {
+  background: url("../images/pointer.png") no-repeat 39px center;
+  text-decoration: none;
+
+  & .menu__link:hover {
+    cursor: text;
+    border: none;
+  }
+}

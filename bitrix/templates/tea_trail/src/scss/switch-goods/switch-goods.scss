@@ -1,0 +1,9 @@
+.switch-goods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+  @import "__circle/__circle.scss";
+  @import "__toggle/__toggle.scss";
+}

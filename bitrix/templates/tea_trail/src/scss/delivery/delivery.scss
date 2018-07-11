@@ -1,0 +1,13 @@
+.delivery {
+  display: flex;
+  flex-direction: column;
+
+  & + & {
+    margin-top: 10px;
+  }
+  
+  @import "__radio/__radio.scss";
+  @import "__title/__title.scss";
+  @import "__subtitle/__subtitle.scss";
+  @import "__option/__option.scss";
+}

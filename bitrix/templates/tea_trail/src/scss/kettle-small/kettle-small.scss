@@ -1,0 +1,13 @@
+.kettle-small {
+  display: block;
+  width: 203px;
+  height: 158px;
+  background: url("../images/kettle-small.png") center bottom no-repeat;
+
+  @import "__cost/__cost.scss";
+  @import "__cost-caption/__cost-caption.scss";
+  @import "__head/__head.scss";
+  @import "__cost-wrap/__cost-wrap.scss";
+  @import "__tea/__tea.scss";
+  @import "_full/_full.scss";
+}

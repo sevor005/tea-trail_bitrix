@@ -1,0 +1,11 @@
+&__tea {
+  display: none;
+  top: 74px;
+  right: 142px;
+  width: 37px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+  background: url("../images/basket-tea.png") center no-repeat;
+  position: fixed;
+  transition: top .5s, right .5s, opacity .5s .5s;
+}

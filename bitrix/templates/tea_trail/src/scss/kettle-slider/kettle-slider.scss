@@ -1,0 +1,35 @@
+.kettle-slider {
+  width: 294px;
+  height: 175px;
+  overflow: hidden;
+
+  &__slides {
+    position: absolute;
+    left: 50%;
+    width: 245px;
+    height: 100%;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+
+  &__slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+
+    &_active {
+      display: block;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+}

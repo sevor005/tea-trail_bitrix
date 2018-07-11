@@ -1,0 +1,7 @@
+.articles-page {
+  display: none;
+
+  &_active {
+    display: block;
+  }
+}

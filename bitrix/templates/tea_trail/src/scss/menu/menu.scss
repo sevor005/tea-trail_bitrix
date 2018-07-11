@@ -1,0 +1,14 @@
+.menu {
+  margin-top: -25px;
+  padding: 76px 0 73px;
+  min-height: 149px;
+  background: url("../images/menu-top.png") center 6px no-repeat,
+              url("../images/menu-bottom.png") center bottom no-repeat,
+              url("../images/menu-shadow.png") center 0 no-repeat;
+
+  @import "__items/__items.scss";
+  @import "__item/__item.scss";
+  @import "__link/__link.scss";
+  @import "__main/__main.scss";
+  @import "__sub/__sub.scss";
+}

@@ -1,0 +1,10 @@
+&__main {
+
+  &::after {
+    content: "";
+    display: block;
+    height: 6px;
+    background: url("../images/line-menu.png") center no-repeat;
+    padding: 10px 0;
+  }
+}

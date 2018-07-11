@@ -1,0 +1,10 @@
+&__link {
+  color: #351515;
+  font-size: 15px;
+  border-bottom: 1px solid transparent;
+  transition: border-color .1s;
+
+  &:hover {
+    border-color: #351515;
+  }
+}

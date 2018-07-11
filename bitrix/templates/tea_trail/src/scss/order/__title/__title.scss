@@ -1,0 +1,12 @@
+&__title {
+  font-family: 'Roboto Regular';
+  font-size: 11px;
+  color: #666;
+  text-transform: uppercase;
+  border-bottom: 1px solid #666;
+  transition: border-color .1s;
+
+  &:hover {
+    border-color: transparent;
+  }
+}

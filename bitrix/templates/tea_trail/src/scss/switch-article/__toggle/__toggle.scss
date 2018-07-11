@@ -1,0 +1,9 @@
+&__toggle {
+  width: 21px;
+  height: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  @import "_left/_left.scss";
+  @import "_right/_right.scss";
+}

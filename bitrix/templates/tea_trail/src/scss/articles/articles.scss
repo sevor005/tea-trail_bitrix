@@ -1,0 +1,16 @@
+.articles {
+  width: 452px;
+  height: 572px;
+  background: url("../images/article-head.png") 73px top no-repeat,
+              url("../images/articles.png") center no-repeat;
+  padding-top: 161px;
+  padding-left: 25px;
+  padding-right: 42px;
+  padding-bottom: 30px;
+
+  @import "__title/__title.scss";
+  @import "__item/__item.scss";
+  @import "__link/__link.scss";
+  @import "__items/__items.scss";
+  @import "__switch/__switch.scss";
+}

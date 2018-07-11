@@ -1,0 +1,11 @@
+&__img {
+  width: 183px;
+  height: 122px;
+  background: url("../images/map-image.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}

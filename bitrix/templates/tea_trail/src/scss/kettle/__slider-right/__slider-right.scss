@@ -1,0 +1,15 @@
+&__slider-right {
+  position: absolute;
+  right: 0;
+  bottom: 7px;
+  width: 24px;
+  height: 27px;
+  background: url("../images/switch-triangle-left.png") center center no-repeat;
+  transform: rotate(180deg);
+  cursor: pointer;
+
+  &:hover {
+    background-image: url("../images/switch-triangle-active.png");
+    transform: rotate(0);
+  }
+}

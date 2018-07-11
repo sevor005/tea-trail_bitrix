@@ -1,0 +1,22 @@
+.btn {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#729e00, #437200);
+  border-radius: 3px;
+  box-shadow: -1px -1px 1px #839f39;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: box-shadow .1s;
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  @import "__section-left/__section-left.scss";
+  @import "__quantity/__quantity.scss";
+  @import "__calculate/__calculate.scss";
+  @import "__text/__text.scss";
+}

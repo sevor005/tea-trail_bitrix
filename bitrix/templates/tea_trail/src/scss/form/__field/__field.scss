@@ -1,0 +1,8 @@
+&__field {
+  width: 300px;
+  height: 62px;
+  background: url("../images/field.png") 5px center no-repeat;
+  padding: 0 70px 0 44px;
+
+  @import "_error/_error.scss";
+}

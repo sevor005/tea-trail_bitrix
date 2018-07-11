@@ -1,0 +1,37 @@
+&__close {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #e54b4b;
+  cursor: pointer;
+  position: relative;
+  margin-left: auto;
+  margin-top: 3px;
+  transition: background-color .2s;
+
+  &::before {
+    content: "";
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    right: 9px;
+    background-color: #fff;
+    transform: rotate(41deg);
+  }
+
+  &::after {
+    content: "";
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    right: 9px;
+    background-color: #fff;
+    transform: rotate(-41deg);
+  }
+
+  &:hover {
+    background-color: #7a0303;
+  }
+}

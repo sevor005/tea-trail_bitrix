@@ -1,0 +1,12 @@
+.tel {
+  color: #5a3931;
+  padding: 0 0 0 37px;
+  background: url("../images/tel.png") 0 2px no-repeat;
+  font-size: 13px;
+
+  & + & {
+    margin-top: 5px;
+  }
+
+  @import "_lighter/_lighter.scss";
+}

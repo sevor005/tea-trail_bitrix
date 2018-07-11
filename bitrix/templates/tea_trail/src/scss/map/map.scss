@@ -1,0 +1,30 @@
+.map {
+  width: 276px;
+  height: 170px;
+  background: url("../images/map.png") no-repeat center;
+
+  &::before {
+    content: "";
+    height: 166px;
+    width: 68px;
+    background: url("../images/map-left.png")  no-repeat;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    z-index: 6;
+  }
+
+  &::after {
+    content: "";
+    height: 166px;
+    width: 61px;
+    background: url("../images/map-right.png")  no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    z-index: 6;
+  }
+
+  @import "__img/__img.scss";
+  @import "__pointer/__pointer.scss";
+}

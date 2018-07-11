@@ -1,0 +1,15 @@
+.order {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 10px 7px 3px;
+  border-top: 2px solid #e2dede;
+
+  @import "__section/__section.scss";
+  @import "__img/__img.scss";
+  @import "__title/__title.scss";
+  @import "__weight/__weight.scss";
+  @import "__title-case/__title-case.scss";
+  @import "__counter/__counter.scss";
+  @import "__cost/__cost.scss";
+  @import "__close/__close.scss";
+}

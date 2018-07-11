@@ -1,0 +1,21 @@
+&__circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #d0c8b7;
+  margin-right: 15px;
+  opacity: .7;
+  box-shadow: 1px 1px 20px #000;
+  cursor: pointer;
+  transition: opacity .1s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @import "_active/_active.scss";
+}

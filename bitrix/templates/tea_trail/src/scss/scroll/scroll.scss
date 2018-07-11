@@ -1,0 +1,14 @@
+.scroll {
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+
+  @import "__triangle-top/__triangle-top.scss";
+  @import "__triangle-bottom/__triangle-bottom.scss";
+  @import "__line/__line.scss";
+  @import "__handler/__handler.scss";
+  
+  @import "_for/_dialog/_for_dialog.scss";
+}

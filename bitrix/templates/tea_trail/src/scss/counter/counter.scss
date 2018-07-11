@@ -1,0 +1,16 @@
+.counter {
+  width: 96px;
+  
+  font-family: 'Roboto Slab Light';
+  font-size: 11px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c2c9bf;
+  box-shadow: 0 0 10px #c2c9bf inset;
+  border-radius: 2px;
+  
+  @import "__switch/__switch.scss";
+  @import "__quantity/__quantity.scss";
+}

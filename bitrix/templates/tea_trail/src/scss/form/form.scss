@@ -1,0 +1,15 @@
+.form {
+  width: 419px;
+  height: 563px;
+  background: url("../images/form-background.png") center center no-repeat;
+  padding-top: 107px;
+  padding-right: 77px;
+  padding-bottom: 79px;
+  padding-left: 72px;
+
+  @import "__title/__title.scss";
+  @import "__field/__field.scss";
+  @import "__message/__message.scss";
+  @import "__btn/__btn.scss";
+  @import "__message-wrap/__message-wrap.scss";
+}

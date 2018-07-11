@@ -1,0 +1,27 @@
+.paper {
+  height: 608px;
+  width: 490px;
+  background: url("../images/paper.png") center no-repeat;
+  font-family: 'Roboto Regular';
+  font-size: 12px;
+  padding: 40px 78px 70px 104px;
+  color: #675748;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 477px;
+    height: 173px;
+    background: url("../images/paper-bottom.png") 0 0 no-repeat;
+  }
+
+  @import "__title/__title.scss";
+  @import "__text/__text.scss";
+  @import "__text-wrapper/__text-wrapper.scss";
+  @import "__scroll/__scroll.scss";
+  @import "__paragraph/__paragraph.scss";
+  @import "__link-articles/__link-articles.scss";
+}

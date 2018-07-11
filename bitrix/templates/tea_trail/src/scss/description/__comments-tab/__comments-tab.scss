@@ -1,0 +1,26 @@
+&__comments-tab {
+  width: 100px;
+  height: 30px;
+  border-radius: 3px 3px 0 0;
+  font-size: 11px;
+  text-align: center;
+  padding: 6px 5px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  border-left: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: -2px;
+  cursor: pointer;
+  transition: background-color .1s;
+
+  & + & {
+    border-left: none;
+  }
+
+  &:hover:not(.description__comments-tab_active) {
+    background-color: #f5f0f0;
+  }
+
+  @import "_active/_active.scss";
+}

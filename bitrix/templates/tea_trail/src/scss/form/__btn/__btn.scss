@@ -1,0 +1,18 @@
+&__btn {
+  display: block;
+  padding: 12px 35px;
+  background-color: rgba(99, 147, 0, .6);
+  border-radius: 4px;
+  box-shadow: -1px -1px 1px #839f39;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 9px auto 0;
+  cursor: pointer;
+  transition: background-color .1s, box-shadow .1s;
+
+  &:hover {
+    background-color: rgba(99, 147, 0, .7);
+    box-shadow: none;
+  }
+}

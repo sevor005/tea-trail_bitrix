@@ -1,0 +1,72 @@
+// bower:scss
+// endbower
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  box-sizing: inherit;
+}
+
+ul, ol, p, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+a, button, input, textarea {
+  outline: none;
+  border: none;
+}
+
+@import "fonts.scss";
+@import "page/page.scss";
+@import "logo/logo.scss";
+@import "board-phone/board-phone.scss";
+@import "sidebar/sidebar.scss";
+@import "menu/menu.scss";
+@import "tel/tel.scss";
+@import "map/map.scss";
+@import "kettle-small/kettle-small.scss";
+@import "casual-dishes/casual-dishes.scss";
+@import "about/about.scss";
+@import "articles/articles.scss";
+@import "switch-article/switch-article.scss";
+@import "switch-goods/switch-goods.scss";
+@import "paper/paper.scss";
+@import "scroll/scroll.scss";
+@import "form/form.scss";
+@import "dishes/dishes.scss";
+@import "goods/goods.scss";
+@import "kettle/kettle.scss";
+@import "tea-goods/tea-goods.scss";
+@import "goods-card/goods-card.scss";
+@import "title/title.scss";
+@import "btn/btn.scss";
+@import "paragraph/paragraph.scss";
+@import "video/video.scss";
+@import "link-articles/link-articles.scss";
+@import "basket/basket.scss";
+@import "order/order.scss";
+@import "counter/counter.scss";
+@import "delivery/delivery.scss";
+@import "basket-form/basket-form.scss";
+@import "dialog-overlay/dialog-overlay.scss";
+@import "dialog/dialog.scss";
+@import "scroller-bar/scroller-bar.scss";
+@import "tea-section/tea-section.scss";
+@import "goods-page/goods-page.scss";
+@import "articles-page/articles-page.scss";
+@import "article-text-list/article-text-list.scss";
+@import "kettle-slider/kettle-slider.scss";

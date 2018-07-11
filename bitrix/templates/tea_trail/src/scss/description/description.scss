@@ -1,0 +1,20 @@
+.description {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @import "__header/__header.scss";
+  @import "__img/__img.scss";
+  @import "__right-section/__right-section.scss";
+  @import "__cost/__cost.scss";
+  @import "__weight/__weight.scss";
+  @import "__short/__short.scss";
+  @import "__btn/__btn.scss";
+  @import "__title/__title.scss";
+  @import "__content/__content.scss";
+  @import "__scroll/__scroll.scss";
+  @import "__comments/__comments.scss";
+  @import "__comments-tab/__comments-tab.scss";
+  @import "__close/__close.scss";
+}

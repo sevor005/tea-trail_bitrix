@@ -1,0 +1,17 @@
+.scroller-bar {
+  position: absolute;
+  border-radius: 5px;
+  background: rgba(#fff, .5);
+
+  &_type {
+    &_v {
+      width: 8px;
+      right: 0;
+    }
+
+    &_h {
+      height: 8px;
+      bottom: 0;
+    }
+  }
+}

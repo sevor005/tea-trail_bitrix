@@ -1,0 +1,32 @@
+&__smoke-inside {
+  
+  &::before,
+  &::after {
+    content: "";
+    width: 675px;
+    height: 388px;
+    background: url("../images/kettle-inside-smoke.png") repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &::before {
+    animation: smoke-inside linear 35s infinite;
+  }
+
+  &::after {
+    animation: smoke-inside-reverse linear 32s infinite;
+    transform: rotate(180deg);
+  }
+
+  @keyframes smoke-inside {
+    from {background-position: 0px center;}
+    to {background-position: 675px center;}
+  }
+
+  @keyframes smoke-inside-reverse {
+    from {background-position: 0px center;}
+    to {background-position: 675px center;}
+  }
+}

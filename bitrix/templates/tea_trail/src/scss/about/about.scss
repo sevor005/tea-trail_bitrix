@@ -1,0 +1,15 @@
+.about {
+  width: 554px;
+  height: 346px;
+  padding: 30px 70px 20px;
+  background: url("../images/about.png") center no-repeat;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  @import "__title/__title.scss";
+  @import "__contacts/__contacts.scss";
+  @import "__social/__social.scss";
+  @import "__skype/__skype.scss";
+  @import "__text/__text.scss";
+}

@@ -1,0 +1,11 @@
+&__switch {
+  font-family: 'Roboto Slab Light';
+  font-size: 11px;
+  padding: 7px 6px;
+  transition: color .1s;
+  cursor: pointer;
+
+  &:hover {
+    color: #999;
+  }
+}
